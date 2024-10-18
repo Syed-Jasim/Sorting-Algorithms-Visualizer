@@ -1,0 +1,114 @@
+
+body {
+    background: linear-gradient(135deg, #B3E5FC 0%, #01579B 100%);
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  
+  h3 {
+    color: #01579B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+  
+  
+  .card {
+    background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left; 
+  }
+  
+  
+  .form-control-sm, .form-select-sm {
+    width: 50%;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .form-label {
+    font-weight: bold;
+    color: #01579B;
+    margin-bottom: 5px;
+  }
+
+  #generateBtn {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #01579B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #generateBtn:hover {
+    background-color: #0277BD; 
+  }
+  
+  
+  .visualizer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 20px;
+  }
+  
+  .box {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: #007bff;
+    margin-right: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box.highlight {
+    background-color: #ff4757;
+  }
+  
+  .box.checking {
+    background-color: #ffa502; 
+  }
+  
+  #nextBtn {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    background-color: #01579B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #nextBtn:hover {
+    background-color: #0277BD; 
+  }
+ 
+  .condition-display p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+  
